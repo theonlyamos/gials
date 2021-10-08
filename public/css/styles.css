@@ -11,6 +11,10 @@ body {
     position: relative;
 }
 
+*:not(html) {
+    overflow: hidden;
+}
+
 
 .object-fit-cover {
     object-fit: cover;
@@ -22,8 +26,16 @@ body {
     object-position: top;
 }
 
+.min-width-50vh {
+    min-height: 50vh;
+}
+
 .ls-1 {
     letter-spacing: 1px;
+}
+
+.ls-2 {
+    letter-spacing: 2px;
 }
 
 .gallery {
