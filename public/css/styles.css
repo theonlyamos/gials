@@ -6,15 +6,34 @@
 }
 
 body {
-    font-family: "Lato", "Open Sans", "Josefin Sans" Arial, sans-serif;
+    font-family: "Lato";
     font-size: 16px;
     position: relative;
+}
+
+.font-lato {
+    font-family: "Lato";
+}
+
+.font-open-sans {
+    font-family: "Open Sans";
+}
+
+.font-josefin-sans {
+    font-family: "Josefin Sans";
+}
+
+.font-roboto {
+    font-family: "Roboto";
 }
 
 *:not(html) {
     overflow: hidden;
 }
 
+.cursor-pointer {
+    cursor: pointer;
+}
 
 .object-fit-cover {
     object-fit: cover;
@@ -122,6 +141,10 @@ body {
 
 .nav-item .nav-link a {
     font-size: large;
+}
+
+.backdrop-blur {
+    backdrop-filter: blur(5px);
 }
 
 @media screen and (min-width: 1024px) {
