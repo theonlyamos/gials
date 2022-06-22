@@ -1,27 +1,40 @@
 window.onload = (e) => {
-    let council = {
-        "Nana Dr. S. K. B. Asante": {
-            name: "Nana Dr. S. K. B. Asante",
-            image: "Nana-S.-K.-B.-Asante.jpg",
-            info: `Nana Susubribi Krobea Asante, Paramount Chief of Asante
-            Asokore, Ghana, known in private life as Samuel Kwadwo Boaten Asante, is currently
-            the Chairman of the Advisory Council of GIALS. He was educated at Achimota School,
-            obtained his Bachelor of Laws (LL.B Hons) Degree from Nottingham University in 1956,
-            and an LL.M. from the University of London; Kings College and the Institute of
-            Advanced Legal Studies, in 1958. He was admitted as a Solicitor (Hons) of the
-            Supreme Court of England, and to the Ghana Bar in 1960. Nana Professor S.K.B.
-            Asante also read for and obtained a Doctor of Juridical Science (JSD) degree from Yale
-            Law School, USA in 1965. He was a pioneer lecturer in law at the Department/Faculty
-            of Law, University of Ghana, Legon (1961-65) and Acting Head of the Law Department
-            in 1962. He also lectured at the faculty of Law, Leeds University (UK) in 1965-66. Nana
-            Dr S.K.B. Asante has extensive experience in international transactional law and is an
-            international legal consultant, specialising in investment law, corporation law and
-            transfer of technology, law of arbitration and governance. In 1991-92, Nana was the
-            Chairman of the Committee of Experts that drafted proposals for the 1992 Constitution
-            of Ghana. Nana is a Fellow of the World Academy of Arts and Sciences, Hon. Fellow of
-            the Society of Advanced Legal Studies, U.K, Fellow and past president of the Ghana
-            Academy of Arts and Sciences, and Life Member of Clare Hall, Cambridge University.`,
-            details: `<strong>His other career highlights include the following</strong>
+  let council = {
+    "Nana Dr. S. K. B. Asante": {
+      name: "Nana Dr. S. K. B. Asante",
+      image: "Nana-S.-K.-B.-Asante.jpg",
+      info: `Nana Susubribi Krobea Asante, Paramount Chief of Asante Asokore 
+            (known in private life as Dr. S.K.B Asante) is a legal practitioner with the following 
+            degrees: LL.B (Hons) (Nottingham) 1956, LL.M (London) 1958, and Doctor of Juridical 
+            Science (Yale University Law School) 1965. He was educated at Asokore Methodist School, 
+            Achimota School, Nottingham University, U.K., Kings College and the Institute of Advanced 
+            Legal Studies, London and Yale University Law School, USA. 
+            He was a pioneer Lecturer in Law (1961-65) and Acting Head of the Law Department at 
+            University of Ghana (1962), and participated in the establishment of the Law Faculty at 
+            the University. He was also a lecturer in Law at Leeds University Law Faculty, UK, 
+            Visiting Fellow Clare Hall and Visiting Member of the Law Faculty, Cambridge University 
+            UK, Adjunct Professor, Howard University Law School, Washington DC, USA and Visiting 
+            Professor of Law, Temple University Law School in Philadelphia USA. A former Solicitor 
+            General and Deputy Attorney General of Ghana, (1969 – 77), Dr. Asante served as an Attorney 
+            with the World Bank, Washington DC (1966-69) and Chief Legal Adviser and a Director at the 
+            UN Centre on Transnational Corporations New York, (1977-1992).
+            <p></p>
+            <p>As Director of the United Nations Centre on Transnational Corporations New York, 1983-1992, 
+            he supervised an international programme of providing advisory and training services to 
+            governments and other officials of numerous developing countries and economies in transition 
+            on their international business transactions with transnational corporations, such as joint 
+            ventures, petroleum and mining agreements, financing agreements, technology transfer and on 
+            legal sector reforms. Nana was the Chairman of the Committee of Experts that formulated proposals 
+            for the 1992 Constitution of Ghana. (1991-92).
+            </p>
+            <p>He is an active international arbitrator. He has been a member of the ICC Court of International Arbitration, Paris, as well as several other arbitration institutions. He is a Co-Founder and Chairman of the Ghana Arbitration Centre. He is listed in the Who is Who of International Arbitrators, Who’s Who in Public International Law and others. He served as a member of the Executive Council of the American Society of International Law (1979-82) and foundation member of the Board of Directors of the International Development Law Institute, Rome (1983-93). He is a Fellow of the World Academy of Art and Science, Hon. Fellow of the Society of Advanced Legal Studies, UK, Fellow and Past President of the Ghana Academy of Arts and Sciences, Life Member of Clare Hall, Cambridge University, Chairman of the newly established Ghana Institute of Advanced Legal Studies and Chairman of the Institute of Financial Law, and the Board of Shawbell Consultants. He was a member of the Judicial Council of Ghana and Chairman of the Examination Committee of the Judicial Council. He is currently a member of the National House of Chiefs and the National Peace Council.
+            </p>
+            <p>Nana has published and lectured extensively on international business transactions, transnational corporations, investment law, international law, constitutional law, property law, and law and development, and has advised numerous governments around the world in these areas. He is a recipient of the Ghana National Book Award for Distinguished Writers and the National Honour of Order of the Volta (Officer Category). He was nominated by the Judicial Council of Ghana as a Justice of the Supreme Court in 1980, but he declined due to his international assignments. A Festschrift, a collection of scholarly essays by 47 jurists, scholars and experts across the world has recently been published in his honour titled: A Commitment to Law, Development and Public Policy: <em><b>A Festschrift in Honour of Nana Dr. SKB Asante (London: Wildy, Simmonds and Hill Publishing, 2016) edited by Richard Frimpong Oppong and Kissi Agyebeng</b></em>.
+            </p>
+            `,
+      details: ''
+            /*
+      details: `<strong>His other career highlights include the following</strong>
             <ul class="list-group list-group-flush">
                 <li class="list-group-item ps-0">
                     <i class="fas fa-angle-right fa-fw"></i>
@@ -72,13 +85,13 @@ window.onload = (e) => {
                     <em>Chairman, Public Utility Regulatory Commission of Ghana
                         (1997-2002)</em>
                 </li>
-            </ul>`
-        },
-        "Professor Dr. Edmund Kwaw": {
-            name: "Professor Dr. Edmund Kwaw",
-            image: "Professor Edmund Kwaw.JPG",
-            info: `Professor Dr. Edmund Kwaw is an Associate Professor of Law, and Head of Department at the
-            Faculty of Law of Wisconsin International University College, and the Acting Executive Director of the
+            </ul>`*/
+    },
+    "Professor Dr. Edmund Kwaw": {
+      name: "Professor Dr. Edmund Kwaw",
+      image: "Professor Edmund Kwaw.JPG",
+      info: `Professor Dr. Edmund Kwaw is an Associate Professor of Law, and Head of Department at the
+            Faculty of Law of Wisconsin International University College, and the Acting Executive Secretary of the
             GIALS. He was educated at Achimota School, and holds a Bachelor of Arts, with Honours (B.A.
             Hons) degree from the University of Ghana Legon, a Bachelor of Laws with Honours (LL.B. Hons)
             degree from the University of Leeds, and a Master of Laws (LL.M) degree from Queens University,
@@ -102,12 +115,12 @@ window.onload = (e) => {
             author of several academic textbooks, and numerous peer-reviewed journal papers in national and
             international journals. Professor Kwaw is also an internationally acclaimed author of fiction, and a
             third degree black belt in Shotokan Karate.</p>`,
-            details: ``
-        },
-        "Professor Jules Winterton": {
-            name: "Professor Jules Winterton",
-            image: "Jules Winterton.png",
-            info: `Professor Jules Winterton, is the Adviser on Strategic
+      details: ``
+    },
+    "Professor Jules Winterton": {
+      name: "Professor Jules Winterton",
+      image: "Jules Winterton.png",
+      info: `Professor Jules Winterton, is the Adviser on Strategic
             Development of GIALS. Currently, he is a Senior Associate Research Fellow at the
             Institute of Advanced Legal Studies (IALS)/School of Advanced Study, University of
             London. Jules Winterton was Director and Librarian of the Institute of Advanced Legal
@@ -130,12 +143,12 @@ window.onload = (e) => {
             Convenor of the Libraries Committee of the Society of Legal Scholars which is
             responsible for A Statement of Standards for University Law Library Provision in the
             United Kingdom.</p>`,
-            details: ``
-        },
-        "Professor Kofi Oteng Kuffour": {
-            name: "Professor Kofi Oteng Kuffour",
-            image: "Professor Kofi Oteng Kuffour.jpg",
-            info: `Professor Kofi Oteng Kuffour is a Professor of Law;
+      details: ``
+    },
+    "Professor Kofi Oteng Kuffour": {
+      name: "Professor Kofi Oteng Kuffour",
+      image: "Professor Kofi Oteng Kuffour.jpg",
+      info: `Professor Kofi Oteng Kuffour is a Professor of Law;
             with a specialisation in African Legal Studies, at the Department of Law and Criminology
             at the University of East London. In addition to his current position at the University of
             East London, Professor Kuffour has held numerous visiting academic positions during
@@ -150,12 +163,12 @@ window.onload = (e) => {
             ECOWAS, Human Rights, and African Unification Law. He is also the Co-Editor of
             internationally acclaimed peer review journals, including the African Journal of
             International and Comparative Law.</p>`,
-            details: ``
-        },
-        "Professor Francis Botchway": {
-            name: "Professor Francis Botchway",
-            image: "Professor Francis Botchway.jpg",
-            info: `Professor Botchway is the Sir William Chair in
+      details: ``
+    },
+    "Professor Francis Botchway": {
+      name: "Professor Francis Botchway",
+      image: "Professor Francis Botchway.jpg",
+      info: `Professor Botchway is the Sir William Chair in
             Alternative Dispute Resolution at Qatar University, having been appointed to the
             position in recognition of his work as a preeminent academic in the field of International
             Economic Law and Dispute Resolution. Professor Botchway holds four law degrees
@@ -163,7 +176,7 @@ window.onload = (e) => {
             Ghana, a Master of Laws, from Dalhousie Law School, Canada; a Master of Laws
             (LL.M) from Harvard Law School, and a Doctor of Philosophy (Ph.D) from the University
             of Manchester.`,
-            details: `<strong>During his academic career, Professor Botchway has held numerous
+      details: `<strong>During his academic career, Professor Botchway has held numerous
             academic positions at several renowned universities including the underlisted positions.</strong>
             <ul class="list-group list-group-flush">
                 <li class="list-group-item ps-0">
@@ -228,11 +241,11 @@ window.onload = (e) => {
             as the Beijing Arbitration Commission (BAC/BIAC). He has published widely on
             international investment and economic law, environmental law, natural resource law andarbitration, in numerous peer reviewed journals as well as texts. He is the Editor-in-
             Chief of the Global Journal of Comparative Law.</p>`
-        },
-        "Justice Stephen Alan Brobbey" : {
-            name: "Justice Stephen Alan Brobbey",
-            image: "Justice Stephen Alan Brobbey.jpg",
-            info: `Justie Stephen Alan Brobbey is a retired justice of the
+    },
+    "Justice Stephen Alan Brobbey": {
+      name: "Justice Stephen Alan Brobbey",
+      image: "Justice Stephen Alan Brobbey.jpg",
+      info: `Justie Stephen Alan Brobbey is a retired justice of the
             Supreme Court of Ghana. He was educated at Opoku Ware School, from where he
             gained admission to the University of Ghana, where he obtained his Bachelor of Laws
             degree (LLB) in 1966. Justice Brobbey was called to the Ghana Bar in 1967. Prior to
@@ -248,7 +261,7 @@ window.onload = (e) => {
             appointed a Justice of the Supreme Court of Ghana. After a two-year stint as Chief
             Justice of the Gambia from 2004 to 2006, he resumed his position as a justice of the
             Supreme court of Ghana until his retirement in 2012.</p>`,
-            details: `<strong>In addition to his career as a jurist
+      details: `<strong>In addition to his career as a jurist
             in Ghana, Justice Brobbey has held noteworthy national and international positions,
             including the following:</strong>
             <ul class="list-group list-group-flush">
@@ -279,11 +292,11 @@ window.onload = (e) => {
             international conferences, including Conferences of the International Bar Association.
             He is the expert on Chieftaincy in Ghana, and his textbook titled the Law of Chieftaincy
             in Ghana, is considered to be the leading textbook on the subject.</p>`
-        },
-        "Justice Professor Samuel Date-Bah": {
-            name: "Justice Professor Samuel Date-Bah",
-            image: "Justice Professor Samuel Date-Bah.jpg",
-            info: `Justice Professor Samuel Date-Bah, is a retired
+    },
+    "Justice Professor Samuel Date-Bah": {
+      name: "Justice Professor Samuel Date-Bah",
+      image: "Justice Professor Samuel Date-Bah.jpg",
+      info: `Justice Professor Samuel Date-Bah, is a retired
             justice of the Supreme Court of Ghana. He was educated at Achimota School, from
             where he gained admission into the Faculty of Law of the University of Ghana, Legon, in
             1963, and graduated with an LL.B (First Class Honours) in 1965. Following his call to
@@ -300,7 +313,7 @@ window.onload = (e) => {
             visiting academic positions at Lincoln College, Oxford University (1972), Yale Law
             School (1976), and the University of Fribourg, Switzerland (1998). He is a Fellow of the
             Ghana Academy of Arts and Sciences.</p>`,
-            details: `<strong>In addition to the above academic credentials,
+      details: `<strong>In addition to the above academic credentials,
             Professor Justice Date-Bah also has noteworthy public and international achievements
             including the following:</strong>
             <ul class="list-group list-group-flush">
@@ -336,32 +349,32 @@ window.onload = (e) => {
             that has been the bedrock of the Namibian economy since then; as well as several
             petroleum exploration agreements with international petroleum companies on behalf of
             the government.</p>`
-        }
     }
-    var councilModal = document.getElementById('councilModal')
+  }
+  var councilModal = document.getElementById('councilModal')
 
-    councilModal.addEventListener('show.bs.modal', function (event) {
-        // Button that triggered the modal
-        var button = event.relatedTarget
-        // Extract info from data-bs-* attributes
-        var name = button.getAttribute('data-bs-member')
-        let member = council[name]
-        // If necessary, you could initiate an AJAX request here
-        // and then do the updating in a callback.
-        //
-        // Select modal content to be updated.
-        var modalTitle = councilModal.querySelector('.modal-title')
-        let modalBody = councilModal.querySelector('.modal-body')
-        let img = modalBody.querySelector('img')
-        let info = modalBody.querySelector('.info')
-        let details = modalBody.querySelector('.details')
-        
-        //Update selected modal content
-        modalTitle.textContent = member.name
-        img.src = "public/images/profiles/"+member.image
-        img.alt = member.name
-        info.innerHTML = member.info
-        details.innerHTML = member.details
-        //modalBodyInput.value = member
-    })
+  councilModal.addEventListener('show.bs.modal', function (event) {
+    // Button that triggered the modal
+    var button = event.relatedTarget
+    // Extract info from data-bs-* attributes
+    var name = button.getAttribute('data-bs-member')
+    let member = council[name]
+    // If necessary, you could initiate an AJAX request here and then do the
+    // updating in a callback.
+    //
+    // Select modal content to be updated.
+    var modalTitle = councilModal.querySelector('.modal-title')
+    let modalBody = councilModal.querySelector('.modal-body')
+    let img = modalBody.querySelector('img')
+    let info = modalBody.querySelector('.info')
+    let details = modalBody.querySelector('.details')
+
+    //Update selected modal content
+    modalTitle.textContent = member.name
+    img.src = "public/images/profiles/" + member.image
+    img.alt = member.name
+    info.innerHTML = member.info
+    details.innerHTML = member.details
+    //modalBodyInput.value = member
+  })
 }
